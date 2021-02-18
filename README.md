@@ -52,7 +52,7 @@ In the future, we also plan to add, among other things, models that classify pho
 
 ```bash
 # clone repository
-git clone https://github.com/SkalskiP/make-sense.git
+git clone https://github.com/zenpoy/make-sense.git
 
 # navigate to main dir
 cd make-sense
