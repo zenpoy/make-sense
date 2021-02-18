@@ -173,10 +173,10 @@ export class RectLabelsExporter {
             const labelName: LabelName = findLast(labelNames, {id: labelRect.labelId});
             const labelFields = !!labelName ? [
                 labelName.name,
-                Math.round(labelRect.rect.x).toString(),
-                Math.round(labelRect.rect.y).toString(),
-                Math.round(labelRect.rect.width).toString(),
-                Math.round(labelRect.rect.height).toString(),
+                labelRect.rect.x.toFixed(6).toString(),
+                labelRect.rect.y.toFixed(6).toString(),
+                labelRect.rect.width.toFixed(6).toString(),
+                labelRect.rect.height.toFixed(6).toString(),
                 imageData.fileData.name,
                 image.width.toString(),
                 image.height.toString()
